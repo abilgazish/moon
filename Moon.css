@@ -1,0 +1,20 @@
+body{
+	background:#66ff33;
+}
+h1{
+	color:black;
+	text-align: center; 
+}
+.button{
+  background-color: black;
+  border: 2px;
+  border-radius: 10px;
+  color: white;
+  padding: 20px 36px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 25px;
+  margin: 4px 2px;
+  cursor: pointer;
+}

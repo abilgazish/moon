@@ -1,0 +1,38 @@
+ Текст ,сызык сызылган текст болады {
+text-decoration:line-through;    //ортасында сызык
+text-decoration:overline;     //устынде сызык
+text-decoration:underline;   //сызык астында   
+}
+
+
+  Загаловоктар{
+<h1>  </h1>   // h1 -- h6 дейын
+<h6>  </h6>   // улкеннен басталып кышырейе береды 
+}
+
+Там арткы фон озгерту ушын 
+body{
+	background:#fc0;
+}
+
+<div>Тег определяет разделение или раздел в HTML - документе.
+<div class="one"></div>  //ышындегы кластар болып табылад //css жазу онай бол ушын
+//css
+.one{
+	border: 2px;                 //граница:
+    border-style: dashed;	     //стиль границы:
+	height: 200px;               //высота:
+	width: 500px;                //ширина: 
+	border-color: blue;          //цвет границы: 
+ }
+ .four{
+    border:2px;                 //границы: 2px;
+	border-style:solid;         //стиль границы: твердый;
+	border-radius: 15px;         //радиус границы: 15 пикселей;
+	height: 150px;              // высота: 150 пикселей;
+	width: 500px;                //ширина: 500 пикселей;
+	border-top-color: green;      //цвет рамки: зеленый;
+	border-bottom-color: red;     //цвет рамки снизу: красный;
+	border-right-color: green;    //рамка-цвет справа: зеленый;
+	border-left-color: black;      //цвет рамки слева: черный;
+ }
